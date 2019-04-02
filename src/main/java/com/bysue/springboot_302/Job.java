@@ -14,15 +14,15 @@ public class Job {
     private long id;
 
     @NotNull
-    @Size(min=4)
+    @Size(min=4, max=10)
     private String title;
 
     @NotNull
-    @Size(min=3)
+    @Size(min=3, max=15)
     private String employer;
 
     @NotNull
-    @Size(min=10)
+    @Size(min=10, max=100)
     private String description;
 
 
